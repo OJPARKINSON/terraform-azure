@@ -33,4 +33,5 @@ resource "azurerm_static_site" "web-app" {
 
 output "sample_app_deployment_token" {
   value = azurerm_static_site.web-app.api_key
+   sensitive = true
 }
