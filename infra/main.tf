@@ -30,8 +30,3 @@ resource "azurerm_static_site" "web-app" {
   location = azurerm_resource_group.rg-webapp.location 
   sku_size           = "Free"
 }
-
-output "sample_app_deployment_token" {
-  value = azurerm_static_site.web-app.api_key
-   sensitive = true
-}
