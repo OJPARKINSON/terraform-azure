@@ -1,6 +1,6 @@
 .terraform
 node_modules
-/.next
+**/.next/**
 
 # Local .terraform directories
 **/.terraform/*
